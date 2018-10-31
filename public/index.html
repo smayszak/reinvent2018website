@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Node Express web application</title>
+    <meta name="description" content="" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/gradients.css" rel="stylesheet">
+</head>
+
+<body class="layout">
+    <div class="pageheader">
+        <div class="imageheader">
+            <img src="img/eeYUFCO.png" style="height:75px"/>
+        </div>
+        <div class="headertext">
+            <p>This is an adminstrative website used to display different web treatment campaigns that are avilable. It has a request simulator, which allows you to enter a customer id to determine the campaign that a customer will receive.</p>
+            <p>This application is purely for demo purposes. Enjoy re:invent 2018!</p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="workspace">
+            <div id="routeArea" name="routeArea" class="zone">
+                <h2>Request Simulator:</h2>
+                <div class="datainputwrapper">
+                    <div id="realestate">
+                        <div id="fakeform">
+            	            <div><label for="customer">CustomerID</label><br /> 
+            	            <input id="customer" name="customer" type="text" value="" style="margin: 0px; width: 240px;" /> </div>
+            	                <button id="customerButton" value="generate">Generate Random</button><br />
+                        	<button id="sendButton" value="Send">Submit Request</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="campaignSection" name="campaignSection"class="zone">
+                <div id="campaignHeader"></div>
+                <div id="routeZone" name="routeZone" >
+                </div>
+            </div>
+        </div>
+        <div style="width:100%">
+            <h3>Customer Campaign Experience:</h3>
+            <div id="customerexperience" class="customerexperience" name="customerexperience" >
+            </div>
+        </div>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/display.js"></script>
+    <script src="js/program.js"></script>
+    <script src="js/set-background.js"></script>
+</body>
+
+</html>

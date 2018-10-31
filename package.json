@@ -1,0 +1,20 @@
+{
+  "name": "express-HelloWorld",
+  "description": "Hello World Node Express web application",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.16.2",
+    "ws": "^5.1.1",
+    "body-parser":"*",
+    "request":"*"
+  },
+  "devDependencies": {
+    "mocha": "5.0.0",
+    "unit.js": "2.0.0",
+    "supertest": "3.0.0"
+  },
+  "scripts": {
+    "test": "mocha --recursive tests --exit"
+  }
+}
